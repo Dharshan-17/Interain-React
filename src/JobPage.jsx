@@ -4,7 +4,7 @@ import Navbar from "./components/JobPage/Navbar";
 import PostJobCard from "./components/JobPage/PostJobCard";
 import SearchBar from "./components/JobPage/SearchBar";
 
-const App = () => {
+const JobPage = () => {
     const categories = ['Commerce', 'Service Based', 'Marketing', 'Media', 'Business', 'Data Science'];
   
     const jobs = [
@@ -90,4 +90,4 @@ const App = () => {
     );
   };
   
-  export default App;
+  export default JobPage;

@@ -1,10 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import JobPage from './JobPage.jsx'
 import './index.css'
+import AdminForm from './AdminForm.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <JobPage /> */}
+    <AdminForm />
   </StrictMode>,
 )
