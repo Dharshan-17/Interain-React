@@ -73,7 +73,7 @@ const AdminForm = () => {
       {/* Form Section */}
       <div className="container mx-auto px-4 py-8">
         <h2 className="text-xl font-semibold mb-6 text-center">Kindly Fill This Form To Reach Out You</h2>
-        
+
         <div className="bg-white p-6 rounded-lg shadow-md">
           <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -248,3 +248,7 @@ const AdminForm = () => {
 };
 
 export default AdminForm;
+
+
+
+
