@@ -19,10 +19,10 @@ const JobForm = () => {
       {/* Main Section */}
       <section className="bg-white mt-6 mx-4 rounded-lg shadow-md p-8">
         <h2 className="text-lg font-semibold text-gray-700 mb-4">
-          Campus Recruitment' 2024 | Interain Intelligence Private Limited | Registration
+          Campus Recruitment&apos; 2024 | Interain Intelligence Private Limited | Registration
         </h2>
         <p className="text-gray-500 mb-4">
-          The form "Interain Intelligence Private Limited - Placement Cell - Certification Details" is no longer accepting responses.
+          The form &quot;Interain Intelligence Private Limited - Placement Cell - Certification Details&quot; is no longer accepting responses.
         </p>
         <p className="text-gray-500">
           Try contacting the owner of the form if you think this is a mistake.
