@@ -1,0 +1,82 @@
+/* calendarStyles.css */
+
+/* Override calendar tile styles */
+.react-calendar {
+    /* background-color: #f9fafb; Change background color */
+    background-color: transparent;
+    border-radius: 1rem; /* Add border radius */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+
+    font-size: 30px;
+    width: 100%;
+}
+
+/* Change styles for month view */
+.react-calendar__month-view__days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Customize grid layout */
+}
+
+/* Customize individual date tiles */
+.react-calendar__tile {
+    padding: 1rem; /* Add padding */
+    border-radius: 0.5rem; /* Rounded corners */
+    transition: background-color 0.2s; /* Smooth transition for hover effects */
+}
+
+/* Style for active date tiles */
+.react-calendar__tile--active {
+    background-color: #2563eb; /* Active tile background color */
+    color: white; /* Active tile text color */
+}
+
+/* Hover effect */
+.react-calendar__tile:hover {
+    background-color: #d1e9ff; /* Hover background color */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Disable styles for disabled tiles */
+.react-calendar__tile--disabled {
+    background-color: #e5e7eb; /* Disabled tile background color */
+    color: #9ca3af; /* Disabled tile text color */
+    cursor: not-allowed; /* Change cursor for disabled tiles */
+}
+
+/* Customize the header */
+.react-calendar__navigation {
+    background-color: #f3f4f6; /* Header background color */
+    border: none; /* Remove border */
+}
+
+/* Customize month/year label */
+.react-calendar__navigation button {
+    color: #374151; /* Text color for navigation buttons */
+    font-weight: bold; /* Bold text for navigation buttons */
+}
+
+/* Customize days of the week */
+.react-calendar__month-view__weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Individual grid for weekdays */
+    background-color: #f3f4f6; /* Weekday header background color */
+    font-weight: bold; /* Bold text for weekdays */
+    color: #4b5563; /* Text color for weekdays */
+    border: none; /* Remove existing border */
+    margin-bottom: 20px;
+    
+}
+
+/* Individual weekday styles with borders */
+.react-calendar__month-view__weekdays > div {
+    border: 1px solid #838488; /* Add right border to each weekday */
+    border-radius: 3px;
+    padding: 1rem; /* Add padding to individual weekdays */
+}
+
+/* 
+/* Remove right border from the last weekday /
+.react-calendar__month-view__weekdays > div:last-child {
+    border-right: none; /* Remove border for the last weekday /
+}
+ */
