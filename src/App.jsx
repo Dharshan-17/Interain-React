@@ -4,6 +4,9 @@ import JobForm from "./pages/JobForm"
 import AdminForm from "./pages/AdminForm"
 import StudentForm from "./pages/StudentForm"
 import CompanyPage from "./pages/CompanyPage"
+import FacultyForm from "./pages/FacultyForm"
+import DescEligib from "./components/FacultyForm/DescEligib"
+import AbutPerk from "./components/FacultyForm/abutPerk"
 
 function App() {
     return (
@@ -13,8 +16,11 @@ function App() {
             {/* <StudentForm /> */}
             {/* <JobForm /> */}
             {/* <StudentsList /> */}
-            <CompanyPage />
-            
+            {/* <CompanyPage /> */}
+
+            <FacultyForm />
+            {/* <DescEligib /> */}
+            {/* <AbutPerk /> */}
         </div>
     )
 }
